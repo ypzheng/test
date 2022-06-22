@@ -1,7 +1,3 @@
 # getting-started-project-template
 
-hl
-,
-test
-more
-hbase
+testing commit from local
