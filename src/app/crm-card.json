@@ -14,6 +14,34 @@
         }
       ]
     },
+    "display": {
+      "properties": [
+        {
+          "name": "quote",
+          "label": "Quote",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "desc",
+          "label": "What is this?",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "author",
+          "label": "Author",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "dataType": "STRING",
+          "options": []
+        }
+      ]
+    },
     "actions": {
       "baseUrls": []
     }
