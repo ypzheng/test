@@ -1,0 +1,73 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "App CRM Card",
+    "fetch": {
+      "targetFunction": "crm-card",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [
+            "email"
+          ],
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": [
+        {
+          "name": "quote",
+          "label": "Quote",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "desc",
+          "label": "What is this?",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "author",
+          "label": "Author",
+          "dataType": "STRING",
+          "options": []
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "dataType": "STRING",
+          "options": []
+        }
+      ]
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}
+
+{
+  "sender": 
+  {
+    "Account": {
+      "login": "ypzheng", 
+      "id":"25359572", 
+      "nodeId":"MDQ6VXNlcjI1MzU5NTcy", 
+      "avatarUrl":"https://avatars.githubusercontent.com/u/25359572?v=4", 
+      "gravatarId":"url=https://api.github.com/users/ypzheng",
+       "htmlUrl":"https://github.com/ypzheng", 
+       "followersUrl":"https://api.github.com/users/ypzheng/followers", 
+       "gistsUrl":"https://api.github.com/users/ypzheng/gists{/gist_id}", 
+       "starredUrl":"https://api.github.com/users/ypzheng/starred{/owner}{/repo}", 
+       "subscriptionsUrl":"https://api.github.com/users/ypzheng/subscriptions", 
+       "organizationsUrl":"https://api.github.com/users/ypzheng/orgs", 
+       "reposUrl":"https://api.github.com/users/ypzheng/repos",
+        "eventsUrl":"https://api.github.com/users/ypzheng/events{/privacy}", 
+        "receivedEventsUrl":"https://api.github.com/users/ypzheng/received_events", 
+        "type":"User", 
+        "siteAdmin":false
+        }
+      }
+    }
