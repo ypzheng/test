@@ -1,6 +1,5 @@
 {
   "name": "test-project",
-  "srcDir": "src",
-  "platformVersion": "testing"
+  "srcDir": "src"
 }
 
